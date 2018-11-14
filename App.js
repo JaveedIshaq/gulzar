@@ -1,11 +1,11 @@
-import React from 'react';
-import Menu from './components/MainComponent';
+import React, { Component } from 'react';
+import Main from './components/MainComponent';
 
 
-export default class App extends React.Component {
+export default class App extends Component {
   render() {
     return (
-      <Menu />
+      <Main />
     );
   }
 }
